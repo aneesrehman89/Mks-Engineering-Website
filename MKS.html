@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MKS ENG</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+  <!-- Slider links -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
+  <link rel="stylesheet" href="MKS.CSS" />
+</head>
+
+<body>
+  <!--------------------- Nav-Bar --------------------->
+  <div class=" nav-parent-contianer">
+    <div class="nav-content-wrapper">
+      <div class="mks-navbar">
+        <div class="nav-logo">
+          <img src="./Images/mks-logo.png" alt="mks-logo" />
+        </div>
+        <div class="nav-list-button-wrapper">
+          <div class="nav-list">
+            <input type="checkbox" id="click" />
+            <label for="click" class="drawer">
+              <img src="./Images/S1/options.png" />
+            </label>
+            <ul>
+              <li><a href="MKS.html" class="active">Home</a></li>
+              <li><a href="javascript:setTimeout(()=>{window.location = '#About' },500);">About Us</a></li>
+              <li><a href="javascript:setTimeout(()=>{window.location = '#Portfolio' },500);">Portfolio</a></li>
+              <li><a href="javascript:setTimeout(()=>{window.location = '#Services' },500);">Services</a></li>
+              <li><a href="javascript:setTimeout(()=>{window.location = '#Carrers' },500);">Carrers</a></li>
+              <li><a href="javascript:setTimeout(()=>{window.location = '#Tranning' },500);">Tranning</a></li>
+              <li><a href="javascript:setTimeout(()=>{window.location = '#Products' },500);">Products</a></li>
+              <li><a href="javascript:setTimeout(()=>{window.location = '#Contact Us' },500);">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="nav-button">
+            <button><a href="#">Sign In</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="s1-banner-contianer">
+    <div class="s1-content-container">
+      <div class="s1-banner-content-wrapper">
+        <h1>MKS THE <span>INNOVATION ENGINEERING</span> SERVICES</h1>
+        <p class="banner-para">
+          An independent system that can connect to different data sources where you can manage, visualize, & control
+          all your data in one location. Connect to N4/AX, LoRaWAN®, SkySpark, My Sql, MS Sql, FTP, SSH2, GraphQL, MQTT,
+          AirThings, and Rest APIs
+        </p>
+        <div class="s1-banner-btn-wrapper">
+          <button class="s1-find-more-btn"><a href="#">Find More</a></button>
+          <button class="s1-Watch-Vdeo-btn">
+            <img src="./Images/S1/btn-right-arrow.png" />
+            <p><a href="#">Watch Video</a></p>
+          </button>
+        </div>
+      </div>
+      <div class="s1-banner-image-wrapper">
+        <img src="./Images/S1/banner-img.png" alt="banner-img" class="vert-move" />
+      </div>
+    </div>
+  </div>
+
+  <!-------- Section-2 [Service-card-section] --------->
+  <div class=" services-card-parent py-5" id="About">
+    <div class="services-card-wrapper">
+      <div class="row my-lg-4" style="width: 100%;">
+        <div class="col-lg-4 my-3 my-lg-0 s2-card">
+          <div class="services-card">
+            <div class="services-content-wrapper">
+              <div class="services-card-icon">
+                <img src="./Images/S2/web-development.png" alt="" />
+              </div>
+              <div class="services-card-content">
+                <h1>Web Development</h1>
+                <p>
+                  We offer a multitude of Web Development services employing a
+                  conglomerate of developmental tools and techniques. From the
+                  development of plain. We offer a multitude of Web
+                  Development services employing a conglomerate of
+                  developmental tools and techniques.
+                </p>
+              </div>
+            </div>
+            <div class="services-common-button">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-3 my-lg-0 s2-card">
+          <div class="services-card">
+            <div class="services-content-wrapper">
+              <div class="services-card-icon">
+                <img src="./Images/S2/mobile-development.png" alt="" />
+              </div>
+              <div class="services-card-content">
+                <h1>Mobile Application Development</h1>
+                <p>
+                  Mobile App is the foremost tool you should employ if you
+                  want to fortify relationships with your clients. In recent
+                  times, the impact that a...
+                </p>
+              </div>
+            </div>
+            <div class="services-common-button">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-3 my-lg-0 s2-card">
+          <div class="services-card">
+            <div class="services-content-wrapper">
+              <div class="services-card-icon">
+                <img src="./Images/S2/graphic-designer.png" alt="" />
+              </div>
+              <div class="services-card-content">
+                <h1>Graphic Designing</h1>
+                <p>
+                  Graphic Design refines the communication between you and
+                  your customer. Through Graphic Design, you can add an
+                  irresistible and engaging visual streak to...
+                </p>
+              </div>
+            </div>
+            <div class="services-common-button">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section-3 [App Design] -->
+  <div class="App-design-parent pt-3 pb-5" id="Portfolio">
+    <div class="App-desingn-contianer-wrapper">
+      <div class="App-desingn-content-wrapper">
+        <h1><span>App</span> Design Desk</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 my-3">
+          <div class="App-design-cards">
+            <div class="App-desing-img">
+              <img src="./Images/S3/1.png" alt="" />
+            </div>
+            <div class="App-design-content-wrapper">
+              <div class="App-design-heading">
+                <h1>Daily Task Manage App Design</h1>
+              </div>
+              <div class="App-design-fimgma-row">
+                <div class="figma-file-date-flex">
+                  <h1 id="figma">Figma File</h1>
+                  <p>23 Feb 2023</p>
+                </div>
+                <div class="price">
+                  <h1>Price <span>$25</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="App-design-common-btn">
+              <button class="cart-btn">
+                <a href="#">Add to cart</a>
+              </button>
+              <button class="buy-btn">
+                <a href="#">Buy Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-3">
+          <div class="App-design-cards">
+            <div class="App-desing-img">
+              <img src="./Images/S3/2.png" alt="" />
+            </div>
+            <div class="App-design-content-wrapper">
+              <div class="App-design-heading">
+                <h1>Daily Task Manage App Design</h1>
+              </div>
+              <div class="App-design-fimgma-row">
+                <div class="figma-file-date-flex">
+                  <h1 id="figma">Figma File</h1>
+                  <p>23 Feb 2023</p>
+                </div>
+                <div class="price">
+                  <h1>Price <span>$25</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="App-design-common-btn">
+              <button class="cart-btn">
+                <a href="#">Add to cart</a>
+              </button>
+              <button class="buy-btn">
+                <a href="#">Buy Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-3">
+          <div class="App-design-cards">
+            <div class="App-desing-img">
+              <img src="./Images/S3/3.png" alt="" />
+            </div>
+            <div class="App-design-content-wrapper">
+              <div class="App-design-heading">
+                <h1>Daily Task Manage App Design</h1>
+              </div>
+              <div class="App-design-fimgma-row">
+                <div class="figma-file-date-flex">
+                  <h1 id="figma">Figma File</h1>
+                  <p>23 Feb 2023</p>
+                </div>
+                <div class="price">
+                  <h1>Price <span>$25</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="App-design-common-btn">
+              <button class="cart-btn">
+                <a href="#">Add to cart</a>
+              </button>
+              <button class="buy-btn">
+                <a href="#">Buy Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-3">
+          <div class="App-design-cards">
+            <div class="App-desing-img">
+              <img src="./Images/S3/2.png" alt="" />
+            </div>
+            <div class="App-design-content-wrapper">
+              <div class="App-design-heading">
+                <h1>Daily Task Manage App Design</h1>
+              </div>
+              <div class="App-design-fimgma-row">
+                <div class="figma-file-date-flex">
+                  <h1 id="figma">Figma File</h1>
+                  <p>23 Feb 2023</p>
+                </div>
+                <div class="price">
+                  <h1>Price <span>$25</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="App-design-common-btn">
+              <button class="cart-btn">
+                <a href="#">Add to cart</a>
+              </button>
+              <button class="buy-btn">
+                <a href="#">Buy Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-3">
+          <div class="App-design-cards">
+            <div class="App-desing-img">
+              <img src="./Images/S3/3.png" alt="" />
+            </div>
+            <div class="App-design-content-wrapper">
+              <div class="App-design-heading">
+                <h1>Daily Task Manage App Design</h1>
+              </div>
+              <div class="App-design-fimgma-row">
+                <div class="figma-file-date-flex">
+                  <h1 id="figma">Figma File</h1>
+                  <p>23 Feb 2023</p>
+                </div>
+                <div class="price">
+                  <h1>Price <span>$25</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="App-design-common-btn">
+              <button class="cart-btn">
+                <a href="#">Add to cart</a>
+              </button>
+              <button class="buy-btn">
+                <a href="#">Buy Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 my-3">
+          <div class="App-design-cards">
+            <div class="App-desing-img">
+              <img src="./Images/S3/1.png" alt="" />
+            </div>
+            <div class="App-design-content-wrapper">
+              <div class="App-design-heading">
+                <h1>Daily Task Manage App Design</h1>
+              </div>
+              <div class="App-design-fimgma-row">
+                <div class="figma-file-date-flex">
+                  <h1 id="figma">Figma File</h1>
+                  <p>23 Feb 2023</p>
+                </div>
+                <div class="price">
+                  <h1>Price <span>$25</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="App-design-common-btn">
+              <button class="cart-btn">
+                <a href="#">Add to cart</a>
+              </button>
+              <button class="buy-btn">
+                <a href="#">Buy Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section-4 [Responsive Dashboard] -->
+  <div class="dashboard-parent-container" id="Services">
+    <div class="dashboard-content-container">
+      <div class="dashboard-content-wrapper">
+        <h1>Responsive Dashboard</h1>
+        <p class="para-1">
+          Dashboards are designed to deliver information in an easier, more consumable way. Today, we’re dealing with
+          non-traditional interfaces and consequently, less real estate - it’s more important than ever for information
+          to be meaningful.
+        </p>
+        <p class="para-2">
+          Gain valuable insight into your data by showing it on a dashboard that contains menus, buttons, graphs,
+          gauges, tables, controls and other widgets.
+        </p>
+        <div class="dashboard-content-list">
+          <ul>
+            <li>
+              <div class="li-wrapper">
+                <img src="./Images/S4/li-tick.png" />
+                <p>Analytics & Controls Dashboard.</p>
+              </div>
+            </li>
+            <li>
+              <div class="li-wrapper">
+                <img src="./Images/S4/li-tick.png" />
+                <p>Responsive Dashboards for Today's Customer.</p>
+              </div>
+            </li>
+            <li>
+              <div class="li-wrapper">
+                <img src="./Images/S4/li-tick.png" />
+                <p>Express Your Own Brand.</p>
+              </div>
+            </li>
+            <li>
+              <div class="li-wrapper">
+                <img src="./Images/S4/li-tick.png" />
+                <p>Create Your Own Views using View Builder™©.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="dashboard-image-wrapper">
+        <img src="./Images/S4/responsive-dashboard.png" alt="Img-not-Found" />
+      </div>
+    </div>
+  </div>
+  <!-- Section-5 [How-it-work] -->
+  <div class="S5-layouts-parent-container" id="Carrers">
+    <div class="s5-layout-content-container">
+      <div class="s5-content-wrapper">
+        <h1>HOW IT WORKS</h1>
+        <p class="shot-para">
+          Create Your Own Views using N4 View Builder™©.
+        </p>
+        <p class="long-para">
+          N4 View Builder™©️ allows you to build custom dashboards by dragging n' dropping widgets into tab or grid
+          style interface. This product also includes Scheduling View, Energy View, PX View, Alarm View, CCTV Floorplan
+          Zoning/Equipment View, Hyperlink Widget, Material UI Buttons, N4 Insights™©, N4 Analytics Charts, and a Free
+          Weather Service which can be used on any project. The dashboard supports multiple languages just by the click
+          of a button.
+        </p>
+        <div class="more-info-btn">
+          <button><a href="#">More Info</a></button>
+        </div>
+      </div>
+    </div>
+    <!-- Position-cards -->
+    <div class="s5-card-parent">
+      <div class="s5-card-content-container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 card-row">
+            <div class="s5-card-wrapper">
+              <div class="s5-cards">
+                <div class="s5-content-wrapper">
+                  <h1 class="card-heading">Select A Layout</h1>
+                  <p class="card-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate odio quaerat quia voluptatem est, vero maxime
+                    porro nostrum modi mollitia?
+                  </p>
+                </div>
+                <div class="s5-common-images">
+                  <img src="./Images/S5/work-icon.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 card-row">
+            <div class="s5-card-wrapper">
+              <div class="s5-cards">
+                <div class="s5-content-wrapper">
+                  <h1 class="card-heading">Drag N'drop Widgets</h1>
+                  <p class="card-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate odio quaerat quia voluptatem est, vero maxime
+                    porro nostrum modi mollitia?
+                  </p>
+                </div>
+                <div class="s5-common-images">
+                  <img src="./Images/S5/work-icon-two.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 card-row">
+            <div class="s5-card-wrapper">
+              <div class="s5-cards">
+                <div class="s5-content-wrapper">
+                  <h1 class="card-heading">Apply Your View</h1>
+                  <p class="card-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate odio quaerat quia voluptatem est, vero maxime
+                    porro nostrum modi mollitia?
+                  </p>
+                </div>
+                <div class="s5-common-images">
+                  <img src="./Images/S5/work-icon-three.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Section-6 [Niagara Control] -->
+  <div class="Niagara-parent-container" id="Tranning">
+    <div class="Niagara-content-container">
+      <div class="Niagara-content-wrapper">
+        <h1>Niagara Control & Visualisation Widgets</h1>
+        <p class="Niagara-para-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          laboriosam in minus! adipisicing elit
+        </p>
+        <div class="Niagara-content-list">
+          <ul>
+            <li>
+              <div class="niagara-li-wrapper">
+                <img src="./Images/S4/li-tick.png" />
+                <p>
+                  Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem
+                  ipsum.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="niagara-li-wrapper">
+                <img src="./Images/S4/li-tick.png" />
+                <p>
+                  Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem
+                  ipsum.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="niagara-li-wrapper">
+                <img src="./Images/S4/li-tick.png" />
+                <p>
+                  Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem
+                  ipsum.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="Niagara more-info-btn">
+          <button class="Niagara-btn"><a href="#">More Info</a></button>
+        </div>
+      </div>
+      <div class="Niagara-image-container">
+        <div class="niagara-card-wrapper">
+          <div class="niagara-left-cards">
+            <div class="niagara-card top">
+              <div class="niagara-card-content-wrapper">
+                <img src="./Images/S6/widget-icon-one.png" alt="" />
+                <h1>Menu & Buttons</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatum, Lorem, ipsum dolor. natus!
+                </p>
+              </div>
+            </div>
+            <div class="niagara-card bottom">
+              <div class="niagara-card-content-wrapper">
+                <img src="./Images/S6/widget-icon-two.png" alt="" />
+                <h1>Control Widgets</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatum, Lorem, ipsum dolor. natus!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="niagara-right-cards">
+            <div class="niagara-card top">
+              <div class="niagara-card-content-wrapper">
+                <img src="./Images/S6/widget-icon-three.png" alt="" />
+                <h1>Graph & Charts</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatum, Lorem, ipsum dolor. natus!
+                </p>
+              </div>
+            </div>
+            <div class="niagara-card bottom">
+              <div class="niagara-card-content-wrapper">
+                <img src="./Images/S6/widget-icon-four.png" alt="" />
+                <h1>Visulaization Widgets</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatum, Lorem, ipsum dolor. natus!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------- Section-7 [Porfolio] ------->
+  <div class="portfolio-parent-container" id="Products">
+    <div class="portfolio-content-container">
+      <div class="portfolio-content-wrapper">
+        <h1>Our Portfolio</h1>
+        <p>
+          Gain valuable insight into your data by showing it on a dashboard that contains menus, buttons, graphs,
+          gauges, tables, controls and other widgets.
+        </p>
+      </div>
+    </div>
+    <div class="portfolio-slider-parent">
+      <div class="container slider">
+        <div>
+          <img src="./Images/S7/portfolio-slider-01.png" />
+        </div>
+        <div>
+          <img src="./Images/S7/portfolio-slider-01.png" />
+        </div>
+        <div>
+          <img src="./Images/S7/portfolio-slider-01.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------- Section-8 [video] ------->
+  <div class="s8-image-parent-container" id="Contact Us">
+    <div class="s8-image-wrapper mt-sm-4 mt-md-5">
+      <video src="./Images/S8/test-video.mp4" id="video1"></video>
+      <div class="s8-video-icon">
+        <img src="./Images/S8/video-icon.png" alt="" srcset="" onclick="playPause()" id="btn" onClick=hideAway() />
+      </div>
+    </div>
+    <div class="s8-layer-container">
+      <div class="layer-1"></div>
+    </div>
+  </div>
+
+  <!-- Section-9 [Client-says] -->
+  <div class="s9-client-says-parent-container">
+    <div class="s9-client-says-content-container">
+      <div class="s9-content-wrapper">
+        <h1>What our client said about us?</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus,
+          non. consequatur.
+        </p>
+      </div>
+      <div class="s9-slider-wrapper">
+        <div class="client-says-slider">
+          <div class="s9-card-container">
+            <div class="s9-card-content-wrapper s9-cards ">
+              <img src="./Images/S9/profile-photo.png" alt="" srcset="" />
+              <h1>Joreme Bell</h1>
+              <p class="short-para">Coppell, Virginia</p>
+              <p class="long-para">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugiat qui possimus ducimus eaque sapiente, soluta veniam
+                adipisicing elit. Fugiat qui possimus ducimus eaque sapiente"
+              </p>
+            </div>
+            <div class="s9-card-star-li">
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+            </div>
+          </div>
+          <div class="s9-card-container">
+            <div class="s9-card-content-wrapper s9-cards">
+              <img src="./Images/S9/profile-photo.png" alt="" srcset="" />
+              <h1>Joreme Bell</h1>
+              <p class="short-para">Coppell, Virginia</p>
+              <p class="long-para">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugiat qui possimus ducimus eaque sapiente, soluta veniam
+                adipisicing elit. Fugiat qui possimus ducimus eaque sapiente"
+              </p>
+            </div>
+            <div class="s9-card-star-li">
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+            </div>
+          </div>
+          <div class="s9-card-container">
+            <div class="s9-card-content-wrapper s9-cards ">
+              <img src="./Images/S9/profile-photo.png" alt="" srcset="" />
+              <h1>Joreme Bell</h1>
+              <p class="short-para">Coppell, Virginia</p>
+              <p class="long-para">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugiat qui possimus ducimus eaque sapiente, soluta veniam
+                adipisicing elit. Fugiat qui possimus ducimus eaque sapiente"
+              </p>
+            </div>
+            <div class="s9-card-star-li">
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+              <img src="./Images/S9/star.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section-10 [Asked-Questions] -->
+  <div class="s10-asked-questions-parent">
+    <div class="s10-asked-questions-content-container">
+      <div class="s10-content-wrapper">
+        <h1>Frequently Asked Question</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure,
+          dolore. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+      <div class="s10-slider">
+        <ul class="s10-ul">
+          <li>
+            <label for="first">How do I sign up? <span><img src="./Images/S10/arrow.png" alt=""></span> </label>
+            <input type="radio" name="accordian" id="first">
+            <div class="content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores vero distinctio, dolorem ipsam
+                molestiae velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ut.</p>
+            </div>
+          </li>
+          <li>
+            <label for="second">What does shared server, dedicated server, and self-hosted mean?<span><img
+                  src="./Images/S10/arrow.png" alt=""></span> </label>
+            <input type="radio" name="accordian" id="second">
+            <div class="content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores vero distinctio, dolorem ipsam
+                molestiae velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ut.</p>
+            </div>
+          </li>
+          <li>
+            <label for="third">Do you offer supprt in setting it up our own machine? <span><img
+                  src="./Images/S10/arrow.png" alt=""></span></label>
+            <input type="radio" name="accordian" id="third">
+            <div class="content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores vero distinctio, dolorem ipsam
+                molestiae velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ut.</p>
+            </div>
+          </li>
+          <li>
+            <label for="fourth">How do you access my N4/AX, MS Sql, MY Sql, MQTT, FTP, SSH2 SFtp, or Rest API?<span><img
+                  src="./Images/S10/arrow.png" alt=""></span></label>
+            <input type="radio" name="accordian" id="fourth">
+            <div class="content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores vero distinctio, dolorem ipsam
+                molestiae velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ut.</p>
+            </div>
+          </li>
+          <li>
+            <label for="fifth">What are Datasources or Connectors?<span><img src="./Images/S10/arrow.png"
+                  alt=""></span></label>
+            <input type="radio" name="accordian" id="fifth">
+            <div class="content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores vero distinctio, dolorem ipsam
+                molestiae velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ut.</p>
+            </div>
+          </li>
+        </ul>
+        <script>
+
+        </script>
+      </div>
+      <div class="s10-button">
+        <button><a href="#">Ask Questions</a></button>
+      </div>
+    </div>
+    </div>
+
+    <!-- Section-11 [Home-footer] -->
+    <div class="home-footer-parent-container">
+      <div class="home-footer-content-container">
+        <div class="home-footer-content-wrapper">
+          <div class="home-footer-mks-flex">
+            <div class="footer-logo">
+              <img src="./Images/footer/mks-logo.png" alt="" />
+            </div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              quam recusandae optio, dolorem quibusdam dolores eos sed ipsum
+              suscipit vero!
+            </p>
+            <div class="footer-icon">
+              <img src="./Images/footer/facebook-icon.png" alt="" />
+              <img src="./Images/footer/linkdin-icon.png" alt="" />
+              <img src="./Images/footer/mail-icon.png" alt="" />
+              <img src="./Images/footer/twitter-icon.png" alt="" />
+              <img src="./Images/footer/youtube-icon.png" alt="" />
+            </div>
+          </div>
+          <div class="home-footer-li-flex">
+            <ul class="company-li">
+              <li>
+                <h1>Company</h1>
+              </li>
+              <li>
+                <p><a href="javascript:setTimeout(()=>{window.location = '#Home' },300);">Home</a></p>
+              </li>
+              <li>
+                <p><a href="javascript:setTimeout(()=>{window.location = '#About Us' },300);">About Us</a></p>
+              </li>
+              <li>
+                <p><a href="javascript:setTimeout(()=>{window.location = '#Porfolio' },300);">Porfolio</a></p>
+              </li>
+              <li>
+                <p><a href="javascript:setTimeout(()=>{window.location = '#Services' },300);">Services</a></p>
+              </li>
+              <li>
+                <p><a href="javascript:setTimeout(()=>{window.location = '#Carrers' },300);">Carrers</a></p>
+              </li>
+              <li>
+                <p><a href="javascript:setTimeout(()=>{window.location = '#Tranning' },300);">Tranning</a></p>
+              </li>
+              <li>
+                <p><a href="javascript:setTimeout(()=>{window.location = '#Products' },300);">Products</a></p>
+              </li>
+            </ul>
+            <ul class="services-li">
+              <li>
+                <h1>Services</h1>
+              </li>
+              <li>
+                <p>Software Development</p>
+              </li>
+              <li>
+                <p>Consultancy</p>
+              </li>
+              <li>
+                <p>Project Management</p>
+              </li>
+              <li>
+                <p>Tridium Tranning</p>
+              </li>
+            </ul>
+            <ul class="get-in-touch">
+              <li>
+                <h1>Get In Touch</h1>
+              </li>
+              <li>
+                <h2>Email Us :</h2>
+              </li>
+              <li>
+                <p>Info@MKS.com</p>
+              </li>
+              <li>
+                <h2>Phone :</h2>
+              </li>
+              <li>
+                <p>+44 (0)800 511 5586 (UK)</p>
+              </li>
+              <li>
+                <div class="contact-btn-wrapper">
+                  <button class="contact-btn"><a href="#">Contact Us</a></button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="home-footer-copy-right">
+          <p>Copyright © 2023 MKS Ltd. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./slick.js"></script>
+    <script>
+      var myVideo = document.getElementById("video1");
+
+      function playPause() {
+        if (myVideo.paused)
+          myVideo.play();
+        else
+          myVideo.pause();
+      } 
+    </script>
+</body>
+
+</html>
